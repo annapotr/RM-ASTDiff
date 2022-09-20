@@ -18,7 +18,7 @@ public class LeafMatcher extends BasicTreeMatcher implements TreeMatcher{
 //        if (abstractCodeMapping.getFragment1().getLocationInfo().getStartLine() == 410)
 //            System.out.println("");
         super.match(src,dst,abstractCodeMapping,mappingStore);
-        specialCases(src,dst,abstractCodeMapping,mappingStore);
+//        specialCases(src,dst,abstractCodeMapping,mappingStore);
     }
 
     private void specialCases(Tree src, Tree dst, AbstractCodeMapping abstractCodeMapping, MultiMappingStore mappingStore) {
